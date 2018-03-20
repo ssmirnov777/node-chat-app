@@ -3,9 +3,20 @@
 <head><title>Chat app</title></head>
 
 <body>
-<p>Hello to chat from static page</p>
+
+  <h2>Welcome to the chat app</h2>
+
+  <ol id='messages'></ol>
+
+  <form id='chat-form'>
+    <input id='message' name="message" type='text' placeholder='Enter message here' />
+    <button>Send</button>
+
+  </form>
+
 
   <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/libs/jquery-3.3.1.min.js"></script>
   <script src="/js/index.js"></script>
 </body>
 
