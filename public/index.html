@@ -6,18 +6,7 @@
 <p>Hello to chat from static page</p>
 
   <script src="/socket.io/socket.io.js"></script>
-  <script>
-    var socket = io();
-
-    socket.on ('connect' , (socket) => {
-      console.log('We connected to the server');
-    })
-
-    socket.on ('disconnect' , (socket) => {
-      console.log('Disconnected from the server');
-    })
-
-  </script>
+  <script src="/js/index.js"></script>
 </body>
 
 </html>
